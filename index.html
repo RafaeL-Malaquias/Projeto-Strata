@@ -310,8 +310,35 @@
 
                         <h5>Forms</h5>
                         <form action="">
+                                <label for="name">Nome</label>
+                                <input type="text" name="name" id="name">
+                            
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+
+                                <select>
+                                        <option value="0">Selecione..</option>
+                                        <option value="1">HTML</option>
+                                        <option value="2">CSS</option>
+                                        <option value="3">JS</option>
+                                </select>
+
+                                <!---O atributo ''name'' precisa ter o mesmo valor-->
+                                <label for=""> <input type="radio" value="baixa" name="Prioridade">Baixa Prioridade</label>
+                                <label for=""> <input type="radio" value="media" name="Prioridade">Media Prioridade</label>
+                                <label for=""> <input type="radio" value="alta" name="Prioridade">Alta Prioridade</label>
+                                
+                                <label for=""> <input type="checkbox" name="copy" value="1">Enviar-me uma copia</label>
+                                <label for=""> <input type="checkbox" name="humano" value="1">Sou homuno</label>
+
+                                <label for="msg">Mensagem</label>
+                                <textarea placeholder="digite uma mensagem" id="msg">
+
+                                    <input type="submit" class="button-default" value="Enviar">
+                                    <input type="text">
 
 
+                                </textarea>
 
 
 
