@@ -1,0 +1,27 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: darkgray;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.main-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 35%;
+    background-image: url(../imgs/overlay.png), url(/imgs/bg.jpg) ;
+    background-position: left top;
+    background-size: auto, cover;
+}
+/* esse 65% é sobra do body que esta com usando 35%*/
+.main-content{
+    width: 65%;
+    margin-left: 35%;
+    padding: 126px 54px 72px;
+    box-sizing: border-box;
+}
+
