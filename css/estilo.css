@@ -10,16 +10,52 @@ a {
     transition: color .2s linear;
     text-decoration: none;
     border-bottom: 1px solid;
+    color: #49bf9d;
 }
 a:hover {
     border-bottom-color: transparent;
-
+}
+p{
+    margin: 0 0 2em;
 }
  h1, h2, h3, h4, h5, h6{
     color: #787878;
     margin: 0 0 24px 0;
-    
+    font-weight: normal;
  }
+ h1 {
+    font-size: 36px;
+ }
+ h2 {
+    font-size: 30;
+ }
+ h3 {
+    font-size: 26px;
+ }
+ h4 {
+    font-size: 22px;
+ }
+ h5 {
+    font-size: 18px;
+ }
+ h6 {
+    font-size: 15px;
+ }
+sub, sup{
+    font-size: 15px;
+}
+
+blockquote {
+    border-left: 5px solid #efefef;
+    margin: 2em 0;
+    padding: .5em 0 0.5em 1.5em;
+
+}
+code {
+    background: #f7f7f7;
+    border-radius: .3em;
+    border: 2px solid black;
+}
 /* eu refiz essa linha de code e funcionou*/
 .main-header {
     position: fixed;
