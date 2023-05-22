@@ -11,6 +11,15 @@ a {
     text-decoration: none;
     border-bottom: 1px solid;
 }
+a:hover {
+    border-bottom-color: transparent;
+
+}
+ h1, h2, h3, h4, h5, h6{
+    color: #787878;
+    margin: 0 0 24px 0;
+    
+ }
 /* eu refiz essa linha de code e funcionou*/
 .main-header {
     position: fixed;
