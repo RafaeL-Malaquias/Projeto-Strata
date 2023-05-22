@@ -20,8 +20,9 @@ p{
 }
  h1, h2, h3, h4, h5, h6{
     color: #787878;
-    margin: 0 0 24px 0;
+    
     font-weight: normal;
+    margin: 1em 0;
  }
  h1 {
     font-size: 36px;
@@ -45,17 +46,51 @@ sub, sup{
     font-size: 15px;
 }
 
-blockquote {
+blockquote{
     border-left: 5px solid #efefef;
     margin: 2em 0;
     padding: .5em 0 0.5em 1.5em;
-
 }
 code {
     background: #f7f7f7;
     border-radius: .3em;
-    border: 2px solid black;
+    border: 2px solid #cacaca;
+    padding: 0 .25em 0 .65em;
+    font-family: 'Courier New', Courier, monospace;
 }
+pre code {
+    display: block;
+}
+ul, ol{
+    margin: 0;
+    padding: 0;
+    padding-left: 1em;
+}
+li{
+    padding-left: .5em;
+}
+.ul-alternate{
+    list-style-type: none;
+    padding-left: 0;
+}
+.ul-alternate li{
+    border-bottom: 2px solid #efefef;
+    padding-left: 0;
+}
+/* aqui pseu do classes*/
+.ul-alternate li:last-child{
+    border:0;
+}
+.ul-icones {
+    list-style-type: none;
+    padding-left: 0;
+}
+.ul-icones  li{
+    display: inline-block;
+    font-size: 2em;
+    color: #49bf9d;
+}
+
 /* eu refiz essa linha de code e funcionou*/
 .main-header {
     position: fixed;
@@ -98,4 +133,12 @@ code {
     padding: 126px 54px 72px;
     box-sizing: border-box;
 }
+.row {
+    overflow: auto;
 
+}
+
+.col-2 {
+    width: 50%;
+    float: left;
+}

@@ -140,51 +140,56 @@
                 <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
                     Esta é uma citação tirada da Mozilla developer Center.
                 </blockquote>
-                <p>
-                    According to Mozilla's website,
-                    <q cite="https://www.mozilla.org/en-US/about/history/details/">Firefox 1.0 was released in 2004 and became a big success.<q> </p>
+
+                    
+                    <q cite="https://www.mozilla.org/en-US/about/history/details/"> According to Mozilla's website, Firefox 1.0 was released in 2004 and became a big success.<q>
 
                         <h4>Preformatado</h4>
 
                         <!--Pre rexpeitar as quebra de linha os espaços (Nao pode usar para fomatar paginas, bom usar trejos de codigo) -->
                         <pre>
+                            <code>
                          
 &lt;script&gt;
       alerlert('Oi')
 &lt;/script&gt;
-                           
+                           </code>
                         </pre>            
                 </section>
 
                 <h4>Listas</h4>
                 
-                <h5> Não ordena</h5>
-                <ul>
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                </ul>
-
-                <h5>Ordena</h5>
-                <ul>
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                </ul>
-
-                <h5>Alternate</h5>
-                <ul>
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                </ul>
+                <div class="row">
+                    <div class="col-2">
+                        <h5> Não ordena</h5>
+                        <ul>
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ul>
+                
+                        <h5>Ordena</h5>
+                        <ol>
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ol>
+                    </div>
+                    <div class="col-2">
+                        <h5>Alternate</h5>
+                        <ul class="ul-alternate">
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ul>
+                    </div>
             <div>
                 <h5>Icones</h5>
-                <ul>
-                    <li><i class="fa-brands fa-facebook" style="color: #005eff;"></i>
-                        <li><i class="fa-brands fa-instagram" style="color: #005eff;"></i>
-                        <li><i class="fa-brands fa-linkedin" style="color: #005eff;"></i></li>
-                        <li><i class="fa-brands fa-github" style="color: #000000;"></i></li>
+                <ul class="ul-icones">
+                <li><i class="fa-brands fa-facebook"></i>
+                        <li><i class="fa-brands fa-instagram" ></i>
+                        <li><i class="fa-brands fa-linkedin" ></i></li>
+                        <li><i class="fa-brands fa-github"></i></li>
                 </ul>
                 </div>
 
