@@ -3,20 +3,49 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: darkgray;
-    font-weight: normal;
     line-height: 1.5;
 }
-
+/* todos a links nao tem mais sublinhado*/
+a {
+    transition: color .2s linear;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+/* eu refiz essa linha de code e funcionou*/
 .main-header {
     position: fixed;
-    left: 0;
     top: 0;
+    left: 0;
     height: 100%;
     width: 35%;
-    background-image: url(../imgs/overlay.png), url(/imgs/bg.jpg) ;
+    padding: 124px 54px 72px;
+    background-image: url(../imgs/overlay.png) , url(../imgs/bg.jpg);
     background-position: left top;
     background-size: auto, cover;
+    box-sizing: border-box;
+    text-align: right;
 }
+
+
+.main-header-title {
+    font-style: 14px;
+    line-height: 1.5;
+    color: white;
+    font-weight: normal;
+    color: rgba(255, 255, 255 , .5);
+}
+.main-header-title strong {
+    color: white;
+}
+.main-header-link {
+    color: inherit;
+    font-weight: normal;
+}
+.main-header-link:hover{
+    color: #49bf9d;
+}
+
+
 /* esse 65% é sobra do body que esta com usando 35%*/
 .main-content{
     width: 65%;
