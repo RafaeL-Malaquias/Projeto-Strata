@@ -89,6 +89,20 @@ li{
     font-size: 2em;
     color: #49bf9d;
 }
+/* fazendo os botão*/
+.button-default{
+    background-color: #49bf9d;
+    color: #f7f7f7;
+    border: 2px solid #49bf9d;
+    padding: .75em;
+    border-radius: 5px;
+    font-size: .8em;
+}
+.button-default-stroke{
+    background-color: #ffffff;
+    border-color: #efefef;
+    color: inherit;
+}
 
 /* eu refiz essa linha de code e funcionou*/
 .main-header {
@@ -124,8 +138,6 @@ li{
 .main-header-link:hover{
     color: #49bf9d;
 }
-
-
 /* esse 65% é sobra do body que esta com usando 35%*/
 .main-content{
     width: 65%;
