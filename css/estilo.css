@@ -125,7 +125,15 @@ li{
     background-color: #ccc;
     padding: .76em;
 }
-
+.table tbody tr td {
+    border-bottom: 1px solid #787878;
+}
+.table tbody tr:first-child td {
+    border-top: 2px solid #787878;
+}
+.table tbody tr:last-child td {
+    border-bottom: 2px solid #787878;
+}
 
 
 
