@@ -157,8 +157,15 @@ li{
     overflow: auto;
 
 }
-
 .col-2 {
     width: 50%;
     float: left;
+}
+.table {
+    width: 100%;
+    margin: 0 0 2em 0;
+
+}
+.table td {
+    padding: .76em;
 }
