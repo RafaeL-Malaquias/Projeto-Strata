@@ -89,6 +89,17 @@ li{
     font-size: 2em;
     color: #49bf9d;
 }
+
+input, label , textarea {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+
+
 /* fazendo os botão*/
 .button-default{
     background-color: #49bf9d;
@@ -194,8 +205,14 @@ li{
 
 }
 .col-2 {
-    width: 50%;
+    width: 49%;
     float: left;
+}
+.col-2:first-child{
+    margin-right: 1%;
+}
+.col-2:last-child{
+    margin-left: 1%;
 }
 .col-2-3 {
     background-color: blueviolet;
