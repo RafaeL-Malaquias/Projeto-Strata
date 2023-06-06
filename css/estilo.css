@@ -101,14 +101,15 @@ input, textarea {
     background: #ccc;
     padding: 15px;
     border-radius: 5px;
-    border: 2px solid transparent;
+    border: 3px solid transparent;
     margin-bottom: 15px;
 }
 /*o outline removeu a cor preta estava nas borda*/
 input:focus, textarea:focus{
-    border: 2px solid #49bf9d;
+    border: 3px solid #49bf9d;
     outline: none;
 }
+
 
 
 
@@ -123,6 +124,7 @@ input:focus, textarea:focus{
     border-radius: 5px;
     font-size: .9em;
     display: inline-block;
+    width: auto;
 }
 /*  */
 .button-default-stroke{
