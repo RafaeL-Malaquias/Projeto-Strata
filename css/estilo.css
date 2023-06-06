@@ -109,6 +109,9 @@ input:focus, textarea:focus{
     border: 3px solid #49bf9d;
     outline: none;
 }
+textarea{
+    height: 10em;
+}
 
 
 
@@ -134,6 +137,9 @@ input:focus, textarea:focus{
 }
 .button-default-small{
     font-size: 0.65em;
+}
+.button-default-big {
+    font-size: 1em;
 }
 .button-default-full{
     text-align: center;
