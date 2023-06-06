@@ -90,14 +90,24 @@ li{
     color: #49bf9d;
 }
 
+/* formulario */
 input, label , textarea {
     display: inline-block;
     width: 100%;
     box-sizing: border-box;
 }
+/* vou por uma borda tresparende para borda do focus funcionar*/
 input, textarea {
     background: #ccc;
-    padding: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    margin-bottom: 15px;
+}
+/*o outline removeu a cor preta estava nas borda*/
+input:focus, textarea:focus{
+    border: 2px solid #49bf9d;
+    outline: none;
 }
 
 
@@ -114,6 +124,7 @@ input, textarea {
     font-size: .9em;
     display: inline-block;
 }
+/*  */
 .button-default-stroke{
     background-color: #ffffff;
     border-color: #efefef;
@@ -219,13 +230,11 @@ input, textarea {
     margin-left: 1.5%;
 }
 .col-2-3 {
-    background-color: blueviolet;
     width: 65%;
     float: left;
 }
 .col-1-3 {
     margin-left: 3%;
-    background-color: aqua;
     width: 32%;
     float: left;
 }
