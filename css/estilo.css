@@ -97,7 +97,7 @@ input, label , textarea {
     box-sizing: border-box;
 }
 /* vou por uma borda tresparende para borda do focus funcionar*/
-input, textarea {
+input, textarea, select {
     background: #ccc;
     padding: 15px;
     border-radius: 5px;
@@ -109,6 +109,13 @@ input:focus, textarea:focus{
     border: 3px solid #49bf9d;
     outline: none;
 }
+
+/*Quando falamos de atributo usamos []*/
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+}
+
 textarea{
     height: 10em;
 }
