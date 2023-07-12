@@ -152,6 +152,19 @@ textarea{
     text-align: center;
     display: block;
 }
+
+/* formatando img*/
+.imagem-link {
+    border: 0;
+}
+/* aqui estava so no width mas colocamos max-width para a img ajutar com sua ltamanho padrao*/
+img {
+    max-width: 100%;
+}
+
+
+
+
 /* formataçã da tabela*/
 .table {
     width: 100%;
@@ -229,6 +242,16 @@ textarea{
     padding: 126px 54px 72px;
     box-sizing: border-box;
 }
+.main-header-link img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.recente-works-card img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
 /* Grid */
 .row {
     overflow: auto;
