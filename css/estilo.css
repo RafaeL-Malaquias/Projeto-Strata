@@ -251,10 +251,18 @@ img {
     border-radius: 10px;
     overflow: hidden;
 }
+.img-left {
+   border-radius: 10px;
+}
+.img-right{
+    border-radius: 10px;
+}
 
 /* Grid */
 .row {
     overflow: auto;
+
+
 
 }
 .col-2 {
