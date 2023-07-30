@@ -315,7 +315,21 @@ img {
 
 .main-footer{
     position: fixed;
-    bottom: 100px;
-    width: 100px;
+    bottom: 0;
+    width: 35%;
     left: 0;
+    padding: 500px 54px 2px;
+    height: 100%;
+    width: 35%;
+    box-sizing: border-box;
+    text-align: right;
+}
+.main-footer , li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+}
+.main-footer, a {
+    border: none;
 }
