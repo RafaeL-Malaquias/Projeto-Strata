@@ -264,8 +264,7 @@ img {
 }
 
 /* formatando gallery*/
-.gallery-img{
-}
+
 .gallery-img img{
     width: 100%;
 }
@@ -320,9 +319,9 @@ img {
     width: 35%;
     box-sizing: border-box;
     text-align: right;
-
 }
-.main-footer , li {
+/* Dicas se */
+.main-footer ,li {
     color: #787878;
     list-style-type: none;
     display: inline-block;
@@ -332,7 +331,6 @@ img {
 .main-footer a {
     color: #787878;
     border: none;
-    transition: all .2 ease-in-out;
 }
 .main-footer, .ul-icones, a:hover {
     color: #49bf9d;
