@@ -1,5 +1,4 @@
 
-
 body {
     font-family: 'Open Sans', sans-serif;
     color: darkgray;
@@ -131,12 +130,14 @@ textarea{
     font-size: .9em;
     display: inline-block;
     width: auto;
-    transition: all .5s ease-in-out;
     cursor: pointer;
+    transition: all .3s ease-in-out;
 }
 .button-default:hover{
-    background-color: #00e1ff;
+    background-color: #585858;
     border-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #49bf9d;
 }
 
 /*  */
@@ -148,9 +149,9 @@ textarea{
 }
 /* hover */
 .button-default-stroke:hover{
-    color: #49bf9d;
-    border-color: #49bf9d;
+    color: #585858;
     background-color: white;
+    border-color: #49bf9d;
 }
 
 .button-default-small{
